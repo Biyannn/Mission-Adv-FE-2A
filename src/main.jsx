@@ -10,7 +10,7 @@ import RegisterPage from "./components/Pages/register";
 import ErrorPage from "./components/Pages/404";
 import Homepage from "./components/Pages/home";
 import DetailProduct from "./components/Fragments/DetailProduct";
-import Profile from "./components/Pages/Profile";
+import Profile from "./components/Pages/profile";
 
 const router = createBrowserRouter([
   {
