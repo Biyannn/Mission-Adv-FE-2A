@@ -1,7 +1,6 @@
 import axios from "axios";
 import { create } from "zustand";
 
-// Ganti URL berikut dengan endpoint MockAPI milik Anda (resource 'users')
 const baseURL = "https://67f14ef3c733555e24acca22.mockapi.io/User";
 
 // Store untuk autentikasi dan user management menggunakan zustand
@@ -11,7 +10,7 @@ export const useAuthStore = create((set, get) => ({
   loading: false,
   error: null,
 
-  // Fetch semua user
+  // Fetch semua user (Read)
   fetchUsers: async () => {
     set({ loading: true, error: null });
     try {
